@@ -23,6 +23,10 @@ import QuestionOfDaySection from './components/QuestionOfDaySection';
 import EducationalLibraryView from './components/EducationalLibraryView';
 import SEOQuestionPage from './components/SEOQuestionPage';
 import AiGuideChat from './components/AiGuideChat';
+import AboutUs from './components/AboutUs';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfUse from './components/TermsOfUse';
+import ContactUs from './components/ContactUs';
 import { Quiz, BlogPost, ContactMessage, QuizResult, Question, UserProfile, Certificate } from './types';
 
 export default function App() {
@@ -2635,7 +2639,10 @@ export default function App() {
 
           </div>
         )}
-
+{currentRoute === '#privacy' && <PrivacyPolicy />}
+{currentRoute === '#terms' && <TermsOfUse />}
+{currentRoute === '#contact-us' && <ContactUs />}
+{currentRoute === '#about-us' && <AboutUs />}
       </main>
 
       {/* Dynamic Footer */}
