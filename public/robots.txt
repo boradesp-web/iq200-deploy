@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.iq200olympiad.org/sitemap.xml
+
+# Block admin paths from indexing
+Disallow: /api/

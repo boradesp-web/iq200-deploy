@@ -1,0 +1,20 @@
+{
+  "name": "IQ200 National Prep Academy",
+  "short_name": "IQ200",
+  "description": "Free Olympiad preparation for Class 2–10. IMO, NSO, IEO mock tests with AI quizzes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#6B21A8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education"],
+  "lang": "en-IN"
+}
